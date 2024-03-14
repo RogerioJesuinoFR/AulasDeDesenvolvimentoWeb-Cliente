@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+*{
+    font: 1em sans-serif;
+}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+
+form div + div {
+    margin-top: 1em;
+}
+
+#nomeEmail{
+    display: flex;
+}
+
+label#nomeLabel, label#emailLabel, label#assuntoLabel{
+    width: fit-content;
+    padding-right: 4px;
+}
+
+input#nome{
+    margin: 0 5px 0 12px;
+}
+
+input#nome, input#email{ 
+    width: 50%;
+}
+
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+}
+
+div#assuntoDiv{
+    display: flex;
+}
+
+label#msg{
+    display: block;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+::placeholder{
+    font-size: 0.8em;
+}
