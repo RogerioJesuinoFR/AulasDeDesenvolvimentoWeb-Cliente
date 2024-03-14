@@ -3,6 +3,12 @@
 
 *{
     font: 1em sans-serif;
+    color: black;
+    font
+}
+
+body{
+    background-color: rgba(133, 133, 241, 0.87);
 }
 
 form {
@@ -11,6 +17,8 @@ form {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
+    background-color: white;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.658);
 }
 
 
@@ -56,6 +64,10 @@ input, textarea {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: 1px solid #999;
+}
+
+textarea{
+    min-height: 1.5em;
 }
 
 input:focus, textarea:focus {
