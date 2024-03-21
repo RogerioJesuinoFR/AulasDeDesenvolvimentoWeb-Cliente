@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgba(133, 133, 241, 0.87);
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    background-color: white;
+}
+
+caption {
+    font-size: x-large;
+}
+
+table, td {
+    border: solid 1px lightgrey;
+    border-collapse: collapse;
+    padding: 2px;
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color:#ccc;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+ul{
+    margin: 0;
+    padding: 0px 15px;
+}
