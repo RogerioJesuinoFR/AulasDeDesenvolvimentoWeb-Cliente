@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    font: 1em sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(112, 57, 6);
+}
+
+header{
+    display: block;
+    background-color: bisque;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 1px 5px 5px rgba(95, 51, 0, 0.658);
+}
+
+.link a{
+    margin: 165px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
+    color: rgb(114, 55, 6);
+    background-color: bisque;
+}
+
+img {
+    float: left;
+    margin: 0px 20px 10px 20px;
+}
+
+p{
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
