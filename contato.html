@@ -14,24 +14,55 @@
             <a href="produto.html">Produtos</a>
         </div>
     </header>
-    <form>
-        <div id="nomeEmail">
-            <label for="nome" id="nomeLabel">Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="Ex.: João da Silva">
-            <label for="email" id="emailLabel">Email:</label>
-            <input type="email" id="email" name="email" placeholder="joaoDaSilva@email.com">
-        </div>
-        <div id="assuntoDiv">
-            <label for="assunto" id="assuntoLabel">Assunto:</label>
-            <input type="text" id="assunto" name="assunto" placeholder="Informe o assunto">
-        </div>
-        <div id="mensagemDiv">
-            <label for="msg" id="msg">Mensagem:</label>
-            <textarea id="msg" name="msg" placeholder="Digite uma mensagem"></textarea>
-        </div>
-        <div class="button">
-            <button type="submit">Enviar</button>
-        </div>
-    </form>
+    <div class="listaFiliais">
+        <ul>
+            <li>
+                <address>
+                    <p>Filial 1 Compakt</p>
+                    <a href="">compakt.filial1@email.com</a>
+                    <p>Telefone: (42) 6789-1234</p>
+                    <p>Rua XV de Novembro, 123 - Ponta Grossa, PR</p>
+                </address>
+            </li>
+            <hr>
+            <li>
+                <address>
+                    <p>Filial 2 Compakt</p>
+                    <a href="">compakt.filial2@email.com</a>
+                    <p>Telefone: (11) 4321-1234</p>
+                    <p>Rua 25 de março, 1001 - São Paulo, SP</p>
+                </address>
+            </li>
+            <hr>
+            <li>
+                <address>
+                    <p>Filial 3 Compakt</p>
+                    <a href="">compakt.filial3@email.com</a>
+                    <p>Telefone: (41) 6789-9876</p>
+                    <p>Rua Barão do Rio Branco, 279 - Curitiba, PR</p>
+                </address>
+            </li>
+        </ul>
+        <form>
+            <p>Entre em contato conosco:</p><hr>
+            <div id="nomeEmail">
+                <label for="nome" id="nomeLabel">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Ex.: João da Silva">
+                <label for="email" id="emailLabel">Email:</label>
+                <input type="email" id="email" name="email" placeholder="joaoDaSilva@email.com">
+            </div>
+            <div id="assuntoDiv">
+                <label for="assunto" id="assuntoLabel">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" placeholder="Informe o assunto">
+            </div>
+            <div id="mensagemDiv">
+                <label for="msg" id="msg">Mensagem:</label>
+                <textarea id="msg" name="msg" placeholder="Digite uma mensagem"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
